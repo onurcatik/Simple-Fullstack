@@ -1,0 +1,118 @@
+# Ignore Python files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Ignore Django files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+.DS_Store
+*.pid
+*.swp
+*.swo
+*.egg-info/
+*.eggs/
+*.coverage
+.coverage.*
+
+# Ignore media files
+/media/
+# Uncomment this line if you want to ignore static files during development
+# /static/
+
+# Ignore secrets and configuration files
+*.env
+*.local
+config/settings/local.py
+
+# Ignore compiled JavaScript files
+*.min.js
+*.min.css
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore React files
+/build/
+public/static/
+public/*.html
+.DS_Store
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Ignore coverage reports
+coverage/
+coverage.*
+.nyc_output/
+.nyc_output.*
+
+# Ignore build artifacts and intermediate files
+build/
+dist/
+*.out
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.lib
+*.dll
+
+# Ignore specific Django migrations
+**/migrations/*.pyc
+**/migrations/*.py[cod]
+**/migrations/*.log
+**/migrations/*.pot
+
+# Ignore additional Django files
+*.sql
+*.db.sqlite3
+*.bak
+*.swp
+*.swo
+
+# Ignore specific temporary files
+*.lock
+*.log
+*.cache
+*.dmp
+
+# Ignore macOS specific files
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.DS_Store?
+._.DS_Store
+.fseventsd
+.metadata_never_index
+.recently-used
+.sparsebundle
+.VolumeIcon.icns
+*/_MACOSX/
+._*
